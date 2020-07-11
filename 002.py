@@ -37,3 +37,15 @@ for key, value in prices.items():
 # [ X ] Rounds all values to 90%
 # [ X ] Applies a 10% discount
 # [ X ] Rounds the decimal place to the 100th place
+
+
+# 4. Place an [ X ] next to one of the following that is an invalid variable name?
+#   [  ] my_string_1
+#   [  ] 1st_string
+#   [  ] foo
+#   [  ] _
+
+# 5. What will be the output of the following code?
+
+say_hello = "Hello, World!"
+print(say_hello[:2])
