@@ -23,7 +23,7 @@ prices = {'apple': 0.40, 'orange': 0.35, 'banana': 0.25}
 for value in prices:
     print(value)
 
-# [ X ] apple orange banana
+# [X] apple orange banana
 # [  ] 0.40 0.35 0.25
 # [  ] 'apple': 0.40 'orange': 0.35 'banana': 0.25
 
@@ -31,17 +31,19 @@ for value in prices:
 # 3. Place an [ X ] next to all correct answers.
 #       What does the following code do?
 
+prices = {'apple': 0.40, 'orange': 0.35, 'banana': 0.25}
+
 for key, value in prices.items():
     prices[key] = round(value * 0.9, 2)
 
-# [ X ] Rounds all values to 90%
-# [ X ] Applies a 10% discount
-# [ X ] Rounds the decimal place to the 100th place
+# [  ] Rounds all values to 90%
+# [X] Applies a 10% discount
+# [  ] Rounds the decimal place to the 100th place
 
 
 # 4. Place an [ X ] next to one of the following that is an invalid variable name?
 #   [  ] my_string_1
-#   [  ] 1st_string
+#   [X] 1st_string
 #   [  ] foo
 #   [  ] _
 
@@ -49,3 +51,5 @@ for key, value in prices.items():
 
 say_hello = "Hello, World!"
 print(say_hello[:2])
+
+# "Hello, World!Hello, World!"
